@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha512-u7ppO4TLg4v6EY8yQ6T6d66inT0daGyTodAi6ycbw9+/AU8KMLAF7Z7YGKPMRA96v7t+c7O1s6YCTGkok6p9ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cart.css">
+    <title>E Cart</title>
+  </head>
+  <body class="bg-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-11 mx-auto">
+                <div class="row mt-5 gx-3">
+
+                  <!-- left side div -->
+                  <div class="col-md-12 col-lg-8 col-11 mx-auto main_cart mb-lg-0 mb-5 p-0 shadow" id = "cart">                   
+
+                  </div>
+
+                  <!-- right side div -->
+
+
+                  <div class="col-md-12 col-lg-4 col-11 mx-auto mt-lg-0 mt-md-5">
+                    <div class="right_side p-3 shadow bg-white">
+                      <h1 class="product_name mb-4">The Total amount of</h1>
+                      <div class="price_individual d-flex justify-content-between">
+                        <p>Product amount</p>
+                        <p>$ <span id="total_amt">0.00</span></p>
+                      </div>
+                      <div class="price_individual d-flex justify-content-between">
+                        <p>Shipping Charge</p>
+                        <p>$ <span>50.00</span></p>
+                      </div>
+                      <hr/>
+                      <div class="total_amt d-flex justify-content-between font-weight-bold">
+                        <p> <b> Total amount of (including GST) </b></p>
+                        <p><b>$ <span id="total_cart_amt">0.00</span></b></p>
+                      </div>
+                      <button class="btn btn-primary text-uppercase">Checkout</button>
+
+                    </div>
+
+                    <!-- discount code -->
+
+                    <div class="discount_code mt-4 shadow bg-white">
+                      <div class="card">
+                        <div class="card-body">
+                          <a class="d-flex justify-content-between" data-toggle="collapse"
+                          href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Add a Discount Code (Optional)
+                            <span><i class="fas fa-chevron-down pt-1"></i></span></a>
+
+                          <div class="collapse" id="collapseExample">
+                            <div class="mt-3">
+                              <input type="text" name="" id="discount_code1" class="form-control font-weight-bold"
+                              placeholder="Enter the Discount Code">
+                              <button class="btn btn-primary mt-3" onclick="discount_code()">Apply</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Expected Delivery date -->
+                    <div class="delivery_date mt-4 shadow bg-white">
+                      <div class="card p-4">
+                        <h4 class="mb-4">Expected Delivery Date</h4>
+                        <p id="Delivery_date">27th Jan - 30th Jan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>

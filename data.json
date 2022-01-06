@@ -1,0 +1,6 @@
+{"1":{"name": "Black Zara Shirt", "type":"Shirt" , "color": "Black", "size":"M",
+     "value":"15", "count":"5" , "img":"/ecart/img/black.jpeg"},
+"2":{"name": "Red Zara Shirt", "type":"Shirt" , "color": "Red", "size":"L",
+     "value":"20", "count":"7" , "img":"/ecart/img/protocol red.jpeg"},
+"3":{"name": "Red Zara Shirt", "type":"Shirt" , "color": "Red", "size":"L",
+     "value":"20", "count":"7" , "img":"/ecart/img/protocol red.jpeg"}}
