@@ -1,6 +1,23 @@
-{"1":{"name": "Black Zara Shirt", "type":"Shirt" , "color": "Black", "size":"M",
-     "value":"15", "count":"5" , "img":"/ecart/img/black.jpeg"},
+{"1":{
+          "name": "Black Zara Shirt", 
+          "type":"Shirt" , 
+          "color": "Black", 
+          "size":"M",
+          "value":"15", 
+          "count":"5" , 
+          "img":"./img/red tape.webp"
+     },
 "2":{"name": "Red Zara Shirt", "type":"Shirt" , "color": "Red", "size":"L",
-     "value":"20", "count":"7" , "img":"/ecart/img/protocol red.jpeg"},
-"3":{"name": "Red Zara Shirt", "type":"Shirt" , "color": "Red", "size":"L",
-     "value":"20", "count":"7" , "img":"/ecart/img/protocol red.jpeg"}}
+     "value":"20", "count":"7" , "img":"./img/protocol red.jpeg"},
+"3":{"name": "Red Tape Exclusive", "type":"Shirt" , "color": "Blue", "size":"L",
+     "value":"25", "count":"5" , "img":"./img/checque.jpg"},
+"4":{"name": "Red Tape Exclusive", "type":"Shirt" , "color": "Blue", "size":"L",
+     "value":"25", "count":"5" , "img":"./img/allen solly.jpg"},
+"5":{"name": "Red Tape Exclusive", "type":"Shirt" , "color": "Blue", "size":"L",
+     "value":"25", "count":"5" , "img":"./img/black.jpeg"},
+"6":{"name": "Red Tape Exclusive", "type":"Shirt" , "color": "Blue", "size":"L",
+     "value":"25", "count":"5" , "img":"./img/white shirt.webp"},
+"7":{"name": "Red Tape Exclusive", "type":"Shirt" , "color": "Blue", "size":"L",
+     "value":"25", "count":"5" , "img":"./img/checque.jpg"}
+}
+

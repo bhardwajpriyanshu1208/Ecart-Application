@@ -62,5 +62,32 @@ i.fa-heart:hover{
 }
 
 .price_money h3{
+    font-size: 15px;
+}
+
+h3.p_name{
     font-size: 24px;
+    text-decoration: solid;
+}
+
+.p_img{
+    height: 200px;
+    width: auto;
+    overflow: hidden;
+}
+
+
+.p_img:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+
+#alertsuccess{
+    display: none;
+    width: 400px;
+}
+#cart_products{
+    position: relative;
+    font-size: 10px;
+    bottom: 10px;
 }
